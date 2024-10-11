@@ -1,0 +1,16 @@
+@keyframes mudarcor{
+    0%{
+        color: brown;
+    }
+    50%{
+        color: goldenrod;
+    }
+    100%{
+        color: red;
+    }
+}
+
+.bolo{
+    text-align: center;
+    animation: mudarcor 3s infinite;
+}
